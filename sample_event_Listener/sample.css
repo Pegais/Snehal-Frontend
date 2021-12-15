@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} */
+
+.main {
+    background-color: grey;
+    height: 600px;
+    width: 800px;
+    position: relative;
+}
+
+.paddle {
+    background-color: blue;
+    height: 10px;
+    width: 50px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+}

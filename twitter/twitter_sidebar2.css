@@ -1,0 +1,12 @@
+.Sidebar2{
+    background-color: #e6f2ff;
+}
+.right-inner-addon  {
+    /* position: absolute; */
+    margin-left: 0px;
+    padding: 10px 12px;
+}
+.form-control{
+    width: 25vw;
+    height: 4vh;
+}

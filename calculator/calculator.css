@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+.display {
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 15%
+}
