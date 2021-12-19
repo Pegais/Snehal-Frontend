@@ -57,4 +57,4 @@ function move() {
     console.log(ball);
     requestAnimationFrame(move)
 }
-// requestAnimationFrame(move)
+requestAnimationFrame(move)
