@@ -1,0 +1,67 @@
+*{
+    /* height: 100%;
+    width: 100%; */
+    box-sizing: border-box;
+}
+html, body{
+    /* display: flex; */
+    flex-direction: column;
+    height: 100%;
+    background-color:rgb(242, 172, 245);
+}
+header{
+    background-color: rgb(173, 96, 245);
+    border-bottom: 5px solid rgb(100, 110, 248);
+    display:flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+header .myJira{
+    margin-right: auto;
+    padding-left: 1rem;
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    
+}
+header .plus{
+    background-color: burlywood;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    border-radius: 50%;
+    height:3rem;
+    width: 3rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-right: 2rem;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+
+.main{
+    height: 600px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.item{
+     height:50px;
+     width: 50px;
+     background-color: white;
+     border-radius: 20px;
+     /* display: flex; */
+     padding: 10px;
+     flex-wrap: wrap;
+}
+

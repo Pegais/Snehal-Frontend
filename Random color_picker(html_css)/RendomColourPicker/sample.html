@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .invisible {
+        display: none;
+    }
+    
+    .blue {
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <header>
+        <button id="red" class="red" data-filter="red">
+            red
+        </button>
+        <button id="blue" data-filter="blue">
+            blue
+        </button>
+        <button id="green" data-filter="green">
+            green
+        </button>
+        <button id="reset" data-filter="reset">
+            reset
+        </button>
+    </header>
+    <main>
+        <!-- <div id="button"></div> -->
+    </main>
+</body>
+<script src="sample.js"></script>
+
+</html>
